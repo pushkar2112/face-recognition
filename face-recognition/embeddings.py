@@ -1,10 +1,8 @@
 import sys
-
-#sys.path.append('/home/shivam/Downloads/lib/python3.6/site-packages')
-sys.path.append('/home/shivam/Downloads/face-recognition/lib/python3.6/site-packages')
 import cv2 
 import face_recognition
 import pickle
+
 name=input("enter name")
 ref_id=input("enter id")
 
