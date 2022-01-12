@@ -12,7 +12,7 @@ datasets = 'live-face-recog/datasets'
 # These are sub data sets of folder,
 # for my faces I've used my name you can
 # change the label here
-sub_data = 'pushkar'	
+sub_data = 'modi'	
 
 path = os.path.join(datasets, sub_data)
 if not os.path.isdir(path):
